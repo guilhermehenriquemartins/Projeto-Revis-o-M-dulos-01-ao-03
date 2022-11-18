@@ -320,8 +320,8 @@ hr {
 #botaolabs > div {
     display: inline-block;
     /*border: 1px solid black;*/
-    width: 280px;
-    height: 260px;
+    width: 305px;
+    height: 300px;
     margin: 5px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.70);
 }
@@ -397,4 +397,180 @@ hr {
 
 .descricao-botao {
     text-align: center;
+}
+
+#GAMEDEVLABFUNDO {
+    position: relative;
+    background: #116FFF url('imagens/GAMEDEVLAB.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+
+#GAMEDEVLABTITULO {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#GAMEDEVLABTITULO > h2 {
+    font: normal 500 2em var(--TituloPrincipal);
+    text-align: center;
+    line-height: 250px;
+    text-transform: uppercase;
+}
+
+.destaquegame {
+    color: #116FFF;
+}
+
+#GAMEDEVLABDESCRICAO {
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#GAMEDEVLABDESCRICAO > h3 {
+    font: normal 800 1.5em var(--TituloPrincipal);
+    color: transparent;
+    margin: 30px 0px 10px 0px;
+}
+
+#GAMEDEVLABDESCRICAO p {
+    font: normal 600 .7em var(--TituloPrincipal);
+    color: transparent;
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#GAMEDEVLABDESCRICAO a {
+    display: block;
+    margin-top: -40px;
+    color: transparent;
+    font: normal 700 .8em var(--TituloPrincipal);
+    text-transform: uppercase;
+}
+
+#GAMEDEVLABDESCRICAO:hover {
+    background-color: #1170ff;
+    transition-duration: 0.3s;
+}
+
+#GAMEDEVLABDESCRICAO:hover > h3 {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+#GAMEDEVLABDESCRICAO:hover > p {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+#GAMEDEVLABDESCRICAO:hover > a {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+#INNOVATIONLABFUNDO {
+    position: relative;
+    background: #116FFF url('imagens/INNOVATIONLAB.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#INNOVATIONLABTITULO > h2 {
+    position: absolute;
+    font: normal 500 1.8em var(--TituloPrincipal);
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 250px;
+}
+
+#destaqueinnovation {
+    color: #116FFF;
+}
+
+#INNOVATIONLABDESCRICAO {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+#INNOVATIONLABDESCRICAO > h3 {
+    font: normal 600 1.6em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin: 30px 0px 10px 0px;
+    color: transparent;
+}
+
+#INNOVATIONLABDESCRICAO p {
+    font: normal 600 .7em var(--TituloPrincipal);
+    line-height: 20px;
+    text-align: center;
+    padding: 10px;
+    color: transparent;
+}
+
+#INNOVATIONLABDESCRICAO a {
+    display: block;
+    font: normal 700 .8em var(--TituloPrincipal);
+    color: transparent;
+    margin-top: -40px;
+    text-transform: uppercase;
+}
+
+#INNOVATIONLABTITULO:hover > #INNOVATIONLABDESCRICAO {
+    background-color: #116FFF;
+    transition-duration: 0.5s;
+}
+
+#INNOVATIONLABDESCRICAO:hover > h3 {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#INNOVATIONLABDESCRICAO:hover > p {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#INNOVATIONLABDESCRICAO:hover > a {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#MAKERLABFUNDO {
+    position: relative;
+    background: #116FFF url('imagens/MAKERLAB.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#MAKERLABTITULO > h2 {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.80);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font: normal 500 2em var(--TituloPrincipal);
+    text-transform: uppercase;
+    line-height: 250px;
+}
+
+#destaquemakerlab {
+    color: #116FFF;
 }
