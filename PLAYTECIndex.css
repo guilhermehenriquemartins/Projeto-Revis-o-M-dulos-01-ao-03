@@ -294,7 +294,7 @@ hr {
 }
 
 #playlabs {
-    background-color: white;
+    background-color: transparent;
     margin-top: 50px;
     padding: 20px;
 }
@@ -302,11 +302,13 @@ hr {
 #playlabs > h2 {
     margin-bottom: 30px;
     font: normal 700 2.5em var(--TituloPrincipal);
+    color: white;
 }
 
-#playlabs p {
+#playlabs #informativoplaylabs {
     font: normal 700 1em var(--TituloPrincipal);
     margin-bottom: 50px;
+    color: white;
 }
 
 #playlabs h2,p {
@@ -373,7 +375,7 @@ hr {
 
 #WOWLABDESCRICAO a {
     display: block;
-    margin-top: -30px;
+    margin-top: 20px;
     font: normal 800 .8em var(--TituloPrincipal);
     text-transform: uppercase;
     color: transparent;
@@ -452,7 +454,7 @@ hr {
 
 #GAMEDEVLABDESCRICAO a {
     display: block;
-    margin-top: -40px;
+    margin-top: 10px;
     color: transparent;
     font: normal 700 .8em var(--TituloPrincipal);
     text-transform: uppercase;
@@ -527,7 +529,7 @@ hr {
     display: block;
     font: normal 700 .8em var(--TituloPrincipal);
     color: transparent;
-    margin-top: -40px;
+    margin-top: 10px;
     text-transform: uppercase;
 }
 
@@ -573,4 +575,485 @@ hr {
 
 #destaquemakerlab {
     color: #116FFF;
+}
+
+#MAKERLABDESCRICAO {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: transparent;
+}
+
+#MAKERLABDESCRICAO h3 {
+    font: normal 800 1.7em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#MAKERLABDESCRICAO p {
+    font: normal 700 .7em var(--TituloPrincipal);
+    padding: 0px 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#MAKERLABDESCRICAO a {
+    display: block;
+    font: normal 700 .8em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: transparent;
+}
+
+#MAKERLABDESCRICAO:hover {
+    background-color: #116FFF;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#MAKERLABDESCRICAO:hover a {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#DEVLABFUNDO {
+    position: relative;
+    background: #116FFF url('imagens/DEVLAB.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#DEVLABTITULO {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.80);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#DEVLABTITULO > h2 {
+    text-align: center;
+    font: normal 500 2em var(--TituloPrincipal);
+    text-transform: uppercase;
+    line-height: 250px;
+}
+
+#destaquedevlab {
+    color: #116FFF;
+}
+
+#DEVLABDESCRICAO {
+    position: absolute;
+    background-color: transparent;
+    color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#DEVLABDESCRICAO h3 {
+    font: normal 600 1.7em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#DEVLABDESCRICAO p {
+    font: normal 700 .7em var(--TituloPrincipal);
+    padding: 0px 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#DEVLABDESCRICAO a {
+    display: block;
+    font: normal 700 .8em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: transparent;
+    margin-top: 20px;
+}
+
+#DEVLABDESCRICAO:hover {
+    background-color: #116FFF;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#DEVLABDESCRICAO:hover a {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#DESIGNLABFUNDO {
+    position: relative;
+    background: #1170FF url('imagens/DESIGNLAB.png') center center no-repeat;
+    background-size: cover;
+}
+
+#DESIGNLABTITULO {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#DESIGNLABTITULO > h2 {
+    font: normal 500 2em var(--TituloPrincipal);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 250px;
+}
+
+#destaquedesignlab {
+    color: #1170FF;
+}
+
+#DESIGNLABDESCRICAO {
+    color: transparent;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#DESIGNLABDESCRICAO h3 {
+    font: normal 700 1.7em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#DESIGNLABDESCRICAO p {
+    font: normal 700 .7em var(--TituloPrincipal);
+    padding: 0px 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#DESIGNLABDESCRICAO a {
+    display: block;
+    font: normal 700 .8em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: transparent;
+    margin-top: 20px;
+}
+
+#DESIGNLABDESCRICAO:hover {
+    background-color: #116FFF;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#DESIGNLABDESCRICAO:hover a {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#bolsas {
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+#bolsas > h2 {
+    font: normal 700 2.5em var(--TituloPrincipal);
+    text-transform: uppercase;
+    text-align: justify;
+    padding: 20px;
+    color: white;
+}
+
+#bolsas hr {
+    position: absolute;
+    border: 2px solid #1170FF;
+    margin-top: 20px;
+    top: 10;
+    left: 2.5%;
+}
+
+#opcoesdebolsas {
+    margin-top: 100px;
+}
+
+#opcoesdebolsas > div {
+    display: inline-block;
+    border: 1px solid #7397AD;
+    width: 15vw;
+    height: 250px;
+    margin: 5px;
+    padding:  0px 10px;
+}
+
+#FIESFUNDO {
+    position: relative;
+}
+
+#FIESFUNDO > h2 {
+    position: absolute;
+    font: normal 100 2em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 250px;
+}
+
+#FIESDESCRICAO {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#FIESDESCRICAO h3, p, a {
+    text-align: center;
+}
+
+#FIESDESCRICAO h3 {
+    font: normal 200 2em var(--TituloPrincipal);
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#FIESDESCRICAO p {
+    font: normal 300 .9em var(--TituloPrincipal);
+}
+
+#FIESDESCRICAO a {
+    display: block;
+    font: normal 300 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: transparent;
+    margin-top: 20px;
+}
+
+#opcoesdebolsas > div:hover {
+    border: 1px solid #116FFF;
+    transition-duration: 0.3s;
+}
+
+#FIESDESCRICAO:hover {
+    color: black;
+    background-color: #116FFF;
+    transition-duration: 0.3s;
+}
+
+#FIESDESCRICAO:hover a {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+#PROUNIFUNDO {
+    position: relative;
+}
+
+#PROUNIFUNDO > h2 {
+    position: absolute;
+    font: normal 500 2em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 250px;
+}
+
+#PROUNIDESCRICAO {
+    position: absolute;
+    background-color: transparent;
+    color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#PROUNIDESCRICAO h3 {
+    font: normal 500 2em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+#PROUNIDESCRICAO p {
+    font: normal 500 .9em var(--TituloPrincipal);
+    padding: 10px;
+}
+
+#PROUNIDESCRICAO a {
+    display: block;
+    font: normal 500 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: transparent;
+    margin-top: 10px;
+}
+
+#PROUNIDESCRICAO:hover {
+    background-color: #116FFF;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#PROUNIDESCRICAO:hover a {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#PLANOESTENDIDOFUNDO {
+    position: relative;
+}
+
+#PLANOESTENDIDOFUNDO > h2 {
+    position: absolute;
+    font: normal 500 1.8em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 94px 0px;
+}
+
+#PLANOESTENDIDODESCRICAO {
+    position: absolute;
+    background-color: transparent;
+    color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#PLANOESTENDIDODESCRICAO h3 {
+    font: normal 700 1.7em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+#PLANOESTENDIDODESCRICAO p {
+    font: normal 500 .9em var(--TituloPrincipal);
+    padding: 10px;
+    text-align: center;
+}
+
+#PLANOESTENDIDODESCRICAO a {
+    display: block;
+    font: normal 500 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: transparent;
+    margin-top: 10px;
+}
+
+#PLANOESTENDIDODESCRICAO:hover {
+    background-color: #116FFF;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#PLANOESTENDIDODESCRICAO:hover a {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#BOLSASDEESTUDOFUNDO {
+    position: relative;
+}
+
+#BOLSASDEESTUDOFUNDO > h2 {
+    position: absolute;
+    font: normal 500 1.8em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 94px 0px;
+}
+
+#BOLSASDEESTUDODESCRICAO {
+    position: absolute;
+    background-color: transparent;
+    color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#BOLSASDEESTUDODESCRICAO h3 {
+    font: normal 700 1.6em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+#BOLSASDEESTUDODESCRICAO p {
+    font: normal 500 .9em var(--TituloPrincipal);
+    padding: 10px;
+}
+
+#BOLSASDEESTUDODESCRICAO a {
+    display: block;
+    font: normal 500 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: transparent;
+}
+
+#BOLSASDEESTUDODESCRICAO:hover {
+    background-color: #116FFF;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#BOLSASDEESTUDODESCRICAO:hover a {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#PARTNERS {
+    position: relative;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+}
+
+#PARTNERS > h2 {
+    font: normal 900 3em var(--TituloPrincipal);
+    text-transform: uppercase;
+}
+
+#PARTNERS hr {
+    position: absolute;
+    border: 1px solid #116FFF;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+    margin: auto;
 }
