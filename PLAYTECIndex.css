@@ -1243,3 +1243,114 @@ table td {
 table td {
     border: 1px solid transparent;
 }
+
+footer {
+    background-color: transparent;
+    padding:  10px 0px 50px 0px;
+}
+
+#rodape {
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    height: 500px;
+    border: 1px solid #CDE7F5;
+}
+
+#rodape div {
+    display: inline-block;
+    width: 320px;
+    color: white;
+}
+
+#menus-rodape div {
+    width: 350px;
+}
+
+#playtec-rodape {
+    position: absolute;
+    border: 1px solid white;
+    height: 260px;
+    left: 1%;
+}
+
+#playtec-descricao {
+    position: absolute;
+}
+
+#playtec-descricao h5 {
+    font: normal 800 1.5em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #116FFF;
+}
+
+#playtec-descricao ul {
+    list-style-position: inside;
+    font: normal 300 .9em var(--TituloPrincipal);
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#menus-rodape {
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+#hubplaytec-rodape {
+    position: absolute;
+    border: 1px solid white;
+    height: 300px;
+    left: 34%;
+}
+
+#hubplaytec-descricao {
+    position: absolute;
+}
+
+#hubplaytec-descricao h5 {
+    font: normal 700 1.5em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: #116FFF;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#hubplaytec-descricao ul {
+    list-style-position: inside;
+    font: normal 500 .9em var(--TituloPrincipal);
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+#links-playtec {
+    display: block;
+    height: 50px;
+}
+
+#unidadesplaytec-rodape {
+    position: absolute;
+    border: 1px solid white;
+    height: 210px;
+    left: 67%;
+}
+
+#unidadesplaytec-descricao h5 {
+    font: normal 800 1.5em var(--TituloPrincipal);
+    color: #116FFF;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#unidadesplaytec-descricao ul {
+    list-style-position: inside;
+    list-style-type: none;
+    font: normal 300 .9em var(--TituloPrincipal);
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
