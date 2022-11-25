@@ -1251,7 +1251,7 @@ footer {
 
 #rodape {
     position: relative;
-    width: 80vw;
+    width: 75vw;
     margin: auto;
     height: 500px;
     border: 1px solid #CDE7F5;
@@ -1269,7 +1269,6 @@ footer {
 
 #playtec-rodape {
     position: absolute;
-    border: 1px solid white;
     height: 260px;
     left: 1%;
 }
@@ -1288,10 +1287,10 @@ footer {
 
 #playtec-descricao ul {
     list-style-position: inside;
-    font: normal 300 .9em var(--TituloPrincipal);
-    line-height: 30px;
+    font: normal 300 .8em var(--TituloPrincipal);
+    line-height: 25px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #menus-rodape {
@@ -1301,7 +1300,6 @@ footer {
 
 #hubplaytec-rodape {
     position: absolute;
-    border: 1px solid white;
     height: 300px;
     left: 34%;
 }
@@ -1320,10 +1318,10 @@ footer {
 
 #hubplaytec-descricao ul {
     list-style-position: inside;
-    font: normal 500 .9em var(--TituloPrincipal);
+    font: normal 500 .8em var(--TituloPrincipal);
     margin-left: 10px;
-    margin-top: 10px;
-    line-height: 30px;
+    margin-top: 20px;
+    line-height: 25px;
 }
 
 #links-playtec {
@@ -1333,7 +1331,6 @@ footer {
 
 #unidadesplaytec-rodape {
     position: absolute;
-    border: 1px solid white;
     height: 210px;
     left: 67%;
 }
@@ -1349,8 +1346,141 @@ footer {
 #unidadesplaytec-descricao ul {
     list-style-position: inside;
     list-style-type: none;
-    font: normal 300 .9em var(--TituloPrincipal);
-    line-height: 30px;
-    margin-top: 10px;
+    font: normal 300 .8em var(--TituloPrincipal);
+    line-height: 25px;
+    margin-top: 20px;
     margin-left: 10px;
+}
+
+#comissaoplaytec-rodape {
+    position: absolute;
+    top: 55%;
+    left: 1%;
+    height: 210px;
+}
+
+#comissaoplaytec-descricao h5 {
+    color: #116FFF;
+    font: normal 700 1.5em var(--TituloPrincipal);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#comissaoplaytec-descricao ul {
+    font: normal 500 .8em var(--TituloPrincipal);
+    list-style-position: inside;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+#linksplaytec-rodape {
+    position: absolute;
+    left: 34%;
+    top: 64%;
+    height: 165px;
+}
+
+#linksplaytec-descricao h5 {
+    color: #116FFF;
+    font: normal 700 1.5em var(--TituloPrincipal);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#linksplaytec-descricao ul {
+    list-style-position: inside;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font: normal 500 .8em var(--TituloPrincipal);
+    line-height: 25px;
+}
+
+#linksuteisplaytec-rodape {
+    position: absolute;
+    left: 67%;
+    top: 46%;
+    height: 255px;
+}
+
+#linksuteisplaytec-descricao h5 {
+    color: #116FFF;
+    font: normal 700 1.5em var(--TituloPrincipal);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#linksuteisplaytec-descricao ul {
+    list-style-position: inside;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    font: normal 500 .8em var(--TituloPrincipal);
+    line-height: 25px;
+}
+
+#rodape div {
+    margin-left: 30px;
+}
+
+#rede-social {
+    color: white;
+    width: 75vw;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px 0px;
+}
+
+#autordosite {
+    font: normal 500 1em var(--TituloPrincipal);
+    margin-bottom: 30px;
+}
+
+#siga-nos {
+    font: normal 700 1.3em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#linkedin {
+    font: normal 500 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+    background-color: #0A66C2;
+    padding: 5px 10px;
+}
+
+#github {
+    font: normal 500 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+}
+
+#linkedin:hover {
+    background-color: #0A66C2;
+    outline: 5px solid #0A66C2;
+    transition-duration: 0.2s;
+}
+
+#github:hover {
+    outline: 5px solid white;
+    transition-duration: 0.2s;
+}
+
+#rede-social a {
+    color: white;
+    text-decoration: none;
+}
+
+#linkedin:active {
+    outline: 0px solid transparent;
+    color: #0A66C2;
+}
+
+#github:active {
+    outline: 0px solid transparent;
+    transition-duration: 0.3s;
 }
