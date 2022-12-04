@@ -112,7 +112,6 @@ main {
 #apoios > div {
     position: relative;
     display: inline-block;
-    /*border: 1px solid black;*/
     height: 300px;
     width: 300px;
     margin: 5px;
@@ -137,4 +136,193 @@ main {
     position: absolute;
     top: 80%;
     font: normal 500 .7em var(--TituloPrincipal);
+}
+
+#conteudofundo {
+    position: relative;
+}
+
+#conteudofundo > img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+}
+
+#conteudofundo h3, p {
+    position: absolute;
+}
+
+#conteudofundo h3 {
+    top: 72%;
+    font: normal 500 .8em var(--SubTítulo);
+}
+
+#conteudofundo p {
+    top: 85%;
+    font: normal 500 .7em var(--TituloPrincipal);
+}
+
+#incentivofundo > img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+}
+
+#incentivofundo h3,p {
+    position: absolute;
+}
+
+#incentivofundo h3 {
+    top: 72%;
+    left: 10%;
+    font: normal 500 .8em var(--SubTítulo);
+}
+
+#incentivofundo p {
+    top: 80%;
+    font: normal 500 .7em var(--TituloPrincipal);
+}
+
+#ilimitadofundo {
+    position: relative;
+}
+
+#ilimitadofundo > img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+}
+
+#ilimitadofundo h3,p {
+    position: absolute;
+}
+
+#ilimitadofundo h3 {
+    top: 72%;
+    left: 18%;
+    font: normal 500 .8em var(--SubTítulo);
+}
+
+#ilimitadofundo p {
+    top: 80%;
+    font: normal 500 .7em var(--TituloPrincipal);
+}
+
+#smartclassfundo {
+    position: relative;
+}
+
+#smartclassfundo > img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+}
+
+#smartclassfundo h3,p {
+    position: absolute;
+}
+
+#smartclassfundo h3 {
+    top: 72%;
+    left: 22%;
+    font: normal 500 .8em var(--SubTítulo);
+}
+
+#smartclassfundo p {
+    top: 80%;
+    left: 15%;
+    font: normal 500 .7em var(--TituloPrincipal);
+}
+
+#feirafundo {
+    position: relative;
+}
+
+#feirafundo > img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+}
+
+#feirafundo h3, p {
+    position: absolute;
+}
+
+#feirafundo h3 {
+    top: 72%;
+    left: 25%;
+    font: normal 500 .8em var(--SubTítulo);
+}
+
+#feirafundo p {
+    top: 80%;
+    font: normal 500 .7em var(--TituloPrincipal);
+}
+
+header {
+    position: relative;
+}
+
+#menu {
+    position: sticky;
+    top: 0;
+}
+
+#graduacoes {
+    background-color: rgb(223, 223, 223);
+    font: normal 500 1.5em var(--TituloPrincipal);
+    text-align: center;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#botoesgraduacoes {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+#botoesgraduacoes > div {
+    display: inline-block;
+    /*border: 1px solid black;*/
+    width: 300px;
+    height: 230px;
+    margin: 10px;
+}
+
+#administracaofundo {
+    position: relative;
+    background: white url('imagens/administracao.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#administracaofundo #administracaoinformacao {
+    position: absolute;
+    background-color: rgba(0, 200, 255, 0.8);
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#administracaoinformacao h4 {
+    font: normal 500 .9em var(--SubTítulo);
+    text-align: center;
+    padding-top: 10px;
+}
+
+#administracaoinformacao p {
+    position: relative;
+    font: normal 600 .6em var(--FonteMenu);
+    padding: 2px;
+    width: 250px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
 }
