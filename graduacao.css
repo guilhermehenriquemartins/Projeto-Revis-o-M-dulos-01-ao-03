@@ -290,7 +290,7 @@ header {
 
 #botoesgraduacoes > div {
     display: inline-block;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     width: 300px;
     height: 230px;
     margin: 10px;
@@ -304,7 +304,7 @@ header {
 
 #administracaofundo #administracaoinformacao {
     position: absolute;
-    background-color: rgba(0, 200, 255, 0.8);
+    background-color: #00c8ffcc;
     top: 61%;
     left: 0;
     width: 100%;
@@ -325,4 +325,273 @@ header {
     margin: auto;
     margin-top: 5px;
     text-align: center;
+}
+
+#cienciacomputacaofundo {
+    position: relative;
+    background: black url('imagens/Ciencia-da-Computacao.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#cienciacomputacaoinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#cienciacomputacaoinformacao h4 {
+    font: normal 500 .8em var(--SubTítulo);
+    margin-top: 15px;
+    text-align: center;
+}
+
+#cienciacomputacaoinformacao p {
+    font: normal 700 .6em  var(--FonteMenu);
+    padding: 0px 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#engenhariacomputacaofundo {
+    position: relative;
+    background: black url('imagens/engenharia-da-computacao.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#engenhariacomputacaoinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#engenhariacomputacaoinformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#engenhariacomputacaoinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    padding: 0px 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#engenhariacomputacaoeadfundo {
+    position: relative;
+    background: black url('imagens/engenharia-da-computacao.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#engenhariacomputacaoeadinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#engenhariacomputacaoeadinformacao h4 {
+    font: normal 700 .7em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#engenhariacomputacaoeadinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.destaqueead {
+    background-color: black;
+    color: white;
+    padding: 3px 4px;
+}
+
+#sistemasinformacaofundo {
+    position: relative;
+    background: black url('imagens/sistemas-de-informacao.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#sistemasinformacaodescricao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#sistemasinformacaodescricao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#sistemasinformacaodescricao p {
+    font: normal 700 .6em var(--FonteMenu);
+    padding: 0px 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#sistemasinformacaoeadfundo {
+    position: relative;
+    background: black url('imagens/sistemas-de-informacao.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#sistemasinformacaoeaddescricao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#sistemasinformacaoeaddescricao h4 {
+    font: normal 700 .7em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#sistemasinformacaoeaddescricao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    padding: 0px 20px;
+    margin-top: 5px;
+}
+
+#adsfundo {
+    position: relative;
+    background: black url('imagens/ads.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#adsinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#adsinformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    margin-top: 10px;
+    text-align: center;
+}
+
+#adsinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#adseadfundo {
+    position: relative;
+    background: black url('imagens/ads.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#adseadinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#adseadinformacao h4 {
+    font: normal 700 .7em var(--SubTítulo);
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+#adseadinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#bancodadosfundo {
+    position: relative;
+    background: black url('imagens/banco-de-dados.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#bancodadosinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#bancodadosinformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#bancodadosinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#bancodadoseadfundo {
+    position: relative;
+    background: black url('imagens/banco-de-dados.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#bancodadoseadinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#bancodadoseadinformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#bancodadoseadinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#ciberneticafundo {
+    position: relative;
+    background: black url('imagens/defesa-cibernetica.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#ciberneticainformacao {
+    position: absolute;
 }
