@@ -290,10 +290,12 @@ header {
 
 #botoesgraduacoes > div {
     display: inline-block;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 300px;
     height: 230px;
     margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #administracaofundo {
@@ -594,4 +596,276 @@ header {
 
 #ciberneticainformacao {
     position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#ciberneticainformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#ciberneticainformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    padding: 0px 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#ciberneticaeadfundo {
+    position: relative;
+    background: black url('imagens/defesa-cibernetica.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#ciberneticaeadinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#ciberneticaeadinformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#ciberneticaeadinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    padding: 0px 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#gestaotifundo {
+    position: relative;
+    background: black url('imagens/Gestão-de-TI.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#gestaotiinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#gestaotiinformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#gestaotiinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#gestaotieadfundo {
+    position: relative;
+    background: black url('imagens/Gestão-de-TI.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#gestaotieadinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#gestaotieadinformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#gestaotieadinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#jogosdigitaisfundo {
+    position: relative;
+    background: black url('imagens/jogos-digitais.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#jogosdigitaisinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#jogosdigitaisinformacao h4 {
+    font: normal 700 .9em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#jogosdigitaisinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#jogosdigitaiseadfundo {
+    position: relative;
+    background: black url('imagens/jogos-digitais.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#jogosdigitaiseadinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#jogosdigitaiseadinformacao h4 {
+    font: normal 700 .9em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#jogosdigitaiseadinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#processosgerenciaisfundo {
+    position: relative;
+    background: black url('imagens/processos-gerenciais.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#processosgerenciaisinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#processosgerenciaisinformacao h4 {
+    font: normal 700 .9em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#processosgerenciaisinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    margin-top: 5px;
+}
+
+#producaomultimidiafundo {
+    position: relative;
+    background: black url('imagens/producao-multimidia.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#producaomultimidiainformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#producaomultimidiainformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#producaomultimidiainformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#redesdecomputadoresfundo {
+    position: relative;
+    background: black url('imagens/redes-de-computadores.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#redesdecomputadoresinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#redesdecomputadoresinformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#redesdecomputadoresinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    margin-top: 5px;
+}
+
+#redesdecomputadoreseadfundo {
+    position: relative;
+    background: black url('imagens/redes-de-computadores.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#redesdecomputadoreseadinformacao {
+    position: absolute;
+    background-color: #00c8ffcc;
+    top: 61%;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#redesdecomputadoreseadinformacao h4 {
+    font: normal 700 .8em var(--SubTítulo);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#redesdecomputadoreseadinformacao p {
+    font: normal 700 .6em var(--FonteMenu);
+    text-align: center;
+    margin-top: 5px;
+}
+
+#depoimentos div {
+    display: inline-block;
 }
