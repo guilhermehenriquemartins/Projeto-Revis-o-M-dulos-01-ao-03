@@ -866,6 +866,114 @@ header {
     margin-top: 5px;
 }
 
+#depoimentos {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+#depoimentos h3 {
+    margin-bottom: 60px;
+    font: normal 900 1.7em var(--TituloPrincipal);
+}
+
+#alunosplaytecdestaque {
+    color: #116FFF;
+}
+
 #depoimentos div {
     display: inline-block;
+    margin: 20px;
+}
+
+#depoimentos iframe {
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+}
+
+#prerodape {
+    background-image: linear-gradient(to right, blue, pink);
+    height: 3px;
+    border: 0px solid black;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    height: 700px;
+}
+
+footer > div {
+    position: relative;
+    display: inline-block;
+    border: 1px solid white;
+    height: 650px;
+    width: 300px;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+#n1 > img {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 50px;
+}
+
+#n1 h2 {
+    position: absolute;
+    color: #116FFF;
+    font: normal 700 1.5em var(--TituloPrincipal);
+    text-transform: uppercase;
+    left: 30%;
+    top: 10%;
+}
+
+#n1 #e-mec {
+    top: 18%;
+    left: 18%;
+    height: 250px;
+    width: 200px;
+}
+
+#n1 #siga-nos {
+    color: #116FFF;
+    font: normal 500 .9em var(--TituloPrincipal);
+    text-transform: uppercase;
+    left: 36%;
+    top: 65%;
+}
+
+#n1 ul {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+
+#n1 li {
+    display: inline-block;
+    margin: 0px 18px;
+    top: 80%;
+}
+
+#n1 > ul > li > img {
+    width: 15px;
+}
+
+#telefone {
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    font: normal 500 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+#reservados {
+    color: white;
+    left: 12%;
+    top: 95%;
+    margin-top: 15px;
+    font: normal 500 1em var(--TituloPrincipal);
 }
