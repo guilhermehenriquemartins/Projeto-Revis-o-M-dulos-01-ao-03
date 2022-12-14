@@ -901,12 +901,12 @@ footer {
     text-align: center;
     background-color: black;
     height: 700px;
+    padding-bottom: 70px;
 }
 
 footer > div {
     position: relative;
     display: inline-block;
-    border: 1px solid white;
     height: 650px;
     width: 300px;
     margin: 5px;
@@ -976,4 +976,135 @@ footer > div {
     top: 95%;
     margin-top: 15px;
     font: normal 500 1em var(--TituloPrincipal);
+}
+
+#n2 > h2 {
+    position: absolute;
+    color: #116FFF;
+    font: normal 700 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+}
+
+#n2 ul {
+    position: absolute;
+    top: 10%;
+    color: white;
+    list-style-position: inside;
+    list-style-type: none;
+    text-align: justify;
+}
+
+#n2 li {
+    font: normal 500 1em var(--TituloPrincipal);
+    line-height: 40px;
+}
+
+#n2 a {
+    color: white;
+    text-decoration: none;
+}
+
+#n2 a:hover {
+    color: #116FFF;
+    transition-duration: 0.3s;
+}
+
+#n3 > h2 {
+    position: absolute;
+    color: #116FFF;
+    font: normal 700 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+}
+
+#n3 ul {
+    position: absolute;
+    color: white;
+    list-style-position: inside;
+    list-style-type: none;
+    text-align: justify;
+    top: 11%;
+}
+
+#n3 li {
+    font: normal 500 1em var(--TituloPrincipal);
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+#prouni {
+    text-transform: uppercase;
+}
+
+#n3 h3 {
+    font: normal 700 1em var(--TituloPrincipal);
+}
+
+#n3 a {
+    color: white;
+    text-decoration: none;
+}
+
+#n3 a:hover {
+    color: #116FFF;
+    transition-duration: 0.3s;
+}
+
+#n4 > h2 {
+    position: absolute;
+    color:#116FFF;
+    font: normal 700 1em var(--TituloPrincipal);
+    text-transform: uppercase;
+}
+
+#n4 ul {
+    position: absolute;
+    color: white;
+    top: 10%;
+    list-style-position: inside;
+    list-style-type: none;
+    text-align: justify;
+}
+
+#n4 li {
+    font: normal 500 1em var(--TituloPrincipal);
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+#n4 h3 {
+    font: normal 700 1em var(--TituloPrincipal);
+    margin-bottom: 10px;
+}
+
+#n4 a {
+    color: white;
+    text-decoration: none;
+}
+
+#n4 a:hover {
+    color: #116FFF;
+    transition-duration: 0.3s;
+}
+
+#graduacoes a {
+    color: black;
+}
+
+#graduacoes a:hover > div {
+    top: 0;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+#graduacoes a:hover h4 {
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    transition-duration: 0.3s;
+}
+
+#graduacoes a:hover p {
+    position: absolute;
+    top: 50%;
+    left: 0;
 }
