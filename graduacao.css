@@ -304,7 +304,7 @@ header {
     background-size: cover;
 }
 
-#administracaofundo #administracaoinformacao {
+#administracaoinformacao {
     position: absolute;
     background-color: #00c8ffcc;
     top: 61%;
@@ -316,14 +316,14 @@ header {
 #administracaoinformacao h4 {
     font: normal 500 .9em var(--SubTítulo);
     text-align: center;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 #administracaoinformacao p {
-    position: relative;
+    position: absolute;
     font: normal 600 .6em var(--FonteMenu);
     padding: 2px;
-    width: 250px;
+    width: 98%;
     margin: auto;
     margin-top: 5px;
     text-align: center;
@@ -1099,12 +1099,91 @@ footer > div {
 #graduacoes a:hover h4 {
     position: absolute;
     top: 30%;
-    left: 11%;
+    width: 100%;
     transition-duration: 0.3s;
 }
 
-#graduacoes a:hover p {
-    position: absolute;
+#administracaoinformacao:hover p {
+    top: 45%;
+}
+
+#cienciacomputacaoinformacao:hover p {
     top: 50%;
-    left: 0;
+}
+
+#engenhariacomputacaoinformacao:hover p {
+    top: 50%;
+}
+
+#engenhariacomputacaoeadinformacao:hover p {
+    top: 50%;
+}
+
+#sistemasinformacaodescricao:hover p {
+    top: 50%;
+}
+
+#sistemasinformacaoeaddescricao:hover p {
+    top: 50%;
+}
+
+#adsinformacao:hover p {
+    top: 55%;
+}
+
+#adseadinformacao:hover p {
+    top: 55%;
+}
+
+#bancodadosinformacao:hover p {
+    top: 50%;
+}
+
+#bancodadoseadinformacao:hover p {
+    top: 50%;
+}
+
+#ciberneticainformacao:hover p {
+    top: 50%;
+}
+
+#ciberneticaeadinformacao:hover p {
+    top: 50%;
+}
+
+#gestaotiinformacao:hover p {
+    top: 60%;
+}
+
+#gestaotieadinformacao:hover p {
+    top: 60%;
+}
+
+#jogosdigitaisinformacao:hover p {
+    top: 50%;
+}
+
+#jogosdigitaiseadinformacao:hover p {
+    top: 50%;
+}
+
+#processosgerenciaisinformacao:hover p {
+    top: 50%;
+}
+
+#producaomultimidiainformacao:hover p {
+    top: 50%;
+}
+
+#redesdecomputadoresinformacao:hover p {
+    top: 50%;
+}
+
+#redesdecomputadoreseadinformacao:hover p {
+    top: 50%;
+}
+
+header h1 > a {
+    text-decoration: none;
+    color: white;
 }
