@@ -214,3 +214,137 @@ del {
     color: white;
     margin-top: -5px;
 }
+
+#matriz-curricular {
+    background-color: black;
+    height: 700px;
+}
+
+#matriz-curricular > table {
+    margin: auto;
+}
+
+#matriz-curricular > table > caption {
+    background-color: #012350;
+    color: white;
+    font: normal 700 1.1em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 50px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#matriz-curricular > table th {
+    height: 50px;
+    font: normal 500 1em var(--TituloPrincipal);
+    color: white;
+    border: 1px solid black;
+}
+
+#ano {
+    width: 150px;
+}
+
+#destaqueano {
+    font: normal 700 2em var(--TituloPrincipal);
+}
+
+#destaquesemestres {
+    font: normal 700 1.3em var(--TituloPrincipal);
+}
+
+.semestredest {
+    font: normal 700 1.1em var(--TituloPrincipal);
+}
+
+.bimestres {
+    font: normal 700 .9em var(--TituloPrincipal);
+}
+
+#matriz-curricular > table td {
+    border: 1px solid black;
+    background-color: white;
+    width: 100px;
+    height: 90px;
+}
+
+.anos {
+    background-color: white;
+}
+
+.anosfonte {
+    color: black;
+}
+
+#ementa {
+    display: block;
+    margin: 30px auto;
+    width: 250px;
+    background-color: #003884;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+    font: normal 700 1.1em var(--TituloPrincipal);
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+
+#ementa:hover {
+    outline: 7px solid #003884;
+    transition-duration: 0.2s;
+}
+
+#extensao-internacional {
+    background-color: white;
+    margin-top: 100px;
+    height: 1000px;
+    padding: 50px 0px;
+}
+
+#extensao-internacional > #imagem {
+    position: relative;
+    background: #003884 url('imagens/orlando.jpg') center center no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+}
+
+#extensao-internacional > #imagem h1,p {
+    text-align: center;
+    color: white;;
+}
+
+#imagem-descricao {
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 55, 132, 0.60), rgba(0, 55, 132, 0.85));
+    top: 0;
+    left: 0;
+    padding: 205px 0px;
+    width: 100%;
+    font: normal 500 1.3em var(--TituloPrincipal);
+    line-height: 45px;
+}
+
+#imagem-descricao h1 {
+    text-transform: uppercase;
+}
+
+#imagem-descricao p {
+    font-size: 1.1em;
+}
+
+#informacoes {
+    position: relative;
+}
+
+#informacoes > div {
+    position: absolute;
+    border: 1px solid black;
+    width: 300px;
+}
+
+#descricao p {
+    color: black;
+}
