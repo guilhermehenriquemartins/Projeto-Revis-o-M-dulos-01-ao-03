@@ -93,7 +93,7 @@ main {
     background-color: black;
     max-width: 1200px;
     min-width: 250px;
-    height: 1000px;
+    height: 5000px;
     margin: auto;
 }
 
@@ -296,10 +296,18 @@ del {
 }
 
 #extensao-internacional {
-    background-color: white;
+    background-color: transparent;
     margin-top: 100px;
-    height: 1000px;
+    height: 1250px;
     padding: 50px 0px;
+}
+
+#extensao-internacional > h1 {
+    font: normal 900 2.3em var(--TituloPrincipal);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003884;
 }
 
 #extensao-internacional > #imagem {
@@ -313,7 +321,7 @@ del {
 
 #extensao-internacional > #imagem h1,p {
     text-align: center;
-    color: white;;
+    color: white;
 }
 
 #imagem-descricao {
@@ -337,14 +345,106 @@ del {
 
 #informacoes {
     position: relative;
+    width: 90%;
+    height: 620px;
+    margin: auto;
+    margin-top: 100px;
 }
 
 #informacoes > div {
     position: absolute;
-    border: 1px solid black;
-    width: 300px;
+    width: 45%;
+    height: 100%;
 }
 
 #descricao p {
-    color: black;
+    font: normal 500 .9em var(--FonteMenu);
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: left;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+#beneficios {
+    height: 100px;
+    left: 55%;
+}
+
+#beneficios > h2 {
+    font: normal 700 1.5em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: white;
+}
+
+#beneficios > ul {
+    list-style-position: inside;
+    margin-top: 50px;
+}
+
+#beneficios > ul > li {
+    font: normal 500 1em var(--FonteMenu);
+    line-height: 35px;
+    color: #003884;
+}
+
+.icone {
+    color: white;
+}
+
+#destaque-internacional {
+    color: white;
+    font-family: var(--SubTítulo);
+    font-size: 1.5em;
+}
+
+#beneficios hr {
+    position: absolute;
+    top: 12%;
+}
+
+#video {
+    position: relative;
+    background-color: #003884;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+#professores {
+    background-color: white;
+    margin-top: 150px;
+    height: 1000px;
+}
+
+#professor1 {
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#professores > #professor1 > div {
+    position: absolute;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+#cláudio-informacao {
+    border: 1px solid black;
+}
+
+#cláudio-imagem {
+    left: 50%;
 }
