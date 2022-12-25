@@ -423,28 +423,146 @@ del {
 }
 
 #professores {
+    position: relative;
     background-color: white;
     margin-top: 150px;
-    height: 1000px;
+    height: 3000px;
 }
 
 #professor1 {
     position: relative;
     width: 100%;
-    border: 1px solid black;
 }
 
 #professores > #professor1 > div {
     position: absolute;
-    border: 1px solid black;
-    width: 500px;
-    height: 500px;
+    height: 400px;
 }
 
 #cláudio-informacao {
-    border: 1px solid black;
+    width: 50%;
 }
 
 #cláudio-imagem {
+    left: 50%;
+    width: 50%;
+}
+
+#cláudio-imagem > img {
+    width: 80%;
+    height: 100%;
+}
+
+#cláudio-informacao > h1 {
+    font: normal 500 2.5em var(--SubTítulo);
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+#cláudio-informacao > h2 {
+    font: normal 500 3em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin: 5px 0px;
+}
+
+#cláudio-informacao ul {
+    list-style-position: inside;
+    margin-top: 40px;
+}
+
+#cláudio-informacao li {
+    font: normal 700 1em var(--TituloPrincipal);
+    line-height: 50px;
+    color: #003884;
+}
+
+.icone {
+    color: black;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+#cláudio-informacao hr {
+    position: absolute;
+    top: 60%;
+}
+
+#professor2 {
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    height: 485px;
+}
+
+#reinaldo-informacao {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    height: 490px;
+}
+
+#reinaldo-informacao > h1 {
+    font: normal 500 2.5em var(--SubTítulo);
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#reinaldo-informacao h2 {
+    font: normal 500 3em var(--TituloPrincipal);
+    text-transform: uppercase;
+}
+
+#reinaldo-informacao ul {
+    list-style-position: inside;
+    margin-top: 55px;
+}
+
+#reinaldo-informacao li {
+    font: normal 700 1em var(--TituloPrincipal);
+    line-height: 25px;
+    color: #003884;
+}
+
+#reinaldo-informacao hr {
+    position: absolute;
+    top: 160px;
+}
+
+#reinaldo-imagem {
+    position: absolute;
+    width: 50%;
+}
+
+.reinaldo-icones {
+    color: black;
+}
+
+.reinaldo-formacao {
+    text-transform: uppercase;
+    /*font-size: .8em;*/
+}
+
+#professor3 {
+    border: 1px solid black;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 500px;
+}
+
+#john-informacao {
+    border: 1px solid black;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+#john-imagem {
+    border: 1px solid black;
+    position: absolute;
+    width: 50%;
+    height: 100%;
     left: 50%;
 }
