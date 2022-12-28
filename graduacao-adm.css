@@ -424,9 +424,8 @@ del {
 
 #professores {
     position: relative;
-    background-color: white;
     margin-top: 150px;
-    height: 3000px;
+    height: 2450px;
 }
 
 #professor1 {
@@ -457,12 +456,14 @@ del {
     font: normal 500 2.5em var(--SubTítulo);
     text-transform: uppercase;
     margin-top: 30px;
+    color: white;
 }
 
 #cláudio-informacao > h2 {
     font: normal 500 3em var(--TituloPrincipal);
     text-transform: uppercase;
     margin: 5px 0px;
+    color: white;
 }
 
 #cláudio-informacao ul {
@@ -477,7 +478,7 @@ del {
 }
 
 .icone {
-    color: black;
+    color: white;
 }
 
 abbr {
@@ -491,7 +492,7 @@ abbr {
 
 #professor2 {
     position: absolute;
-    top: 18%;
+    top: 25%;
     width: 100%;
     height: 485px;
 }
@@ -507,11 +508,13 @@ abbr {
     font: normal 500 2.5em var(--SubTítulo);
     text-transform: uppercase;
     margin-top: 10px;
+    color: white;
 }
 
 #reinaldo-informacao h2 {
     font: normal 500 3em var(--TituloPrincipal);
     text-transform: uppercase;
+    color: white;
 }
 
 #reinaldo-informacao ul {
@@ -536,33 +539,146 @@ abbr {
 }
 
 .reinaldo-icones {
-    color: black;
+    color: white;
 }
 
 .reinaldo-formacao {
     text-transform: uppercase;
-    /*font-size: .8em;*/
 }
 
 #professor3 {
-    border: 1px solid black;
     position: absolute;
-    top: 40%;
+    top: 53%;
     width: 100%;
     height: 500px;
 }
 
 #john-informacao {
-    border: 1px solid black;
     position: absolute;
     width: 50%;
     height: 100%;
 }
 
 #john-imagem {
-    border: 1px solid black;
     position: absolute;
     width: 50%;
     height: 100%;
     left: 50%;
+}
+
+#john-informacao > h1 {
+    font: normal 500 2em var(--SubTítulo);
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: white;
+}
+
+#john-informacao > h2 {
+    font: normal 500 3em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: white;
+}
+
+#john-informacao > hr {
+    position: absolute;
+    top: 35%;
+}
+
+#john-informacao > ul {
+    list-style-position: inside;
+    margin-top: 50px;
+}
+
+#john-informacao > ul > li {
+    font: normal 700 1em var(--TituloPrincipal);
+    line-height: 25px;
+    color: #003884;
+}
+
+.john-icones {
+    color: white;
+}
+
+#professor4 {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    height: 500px;
+}
+
+#wagner-informacao {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 50%;
+}
+
+#wagner-imagem {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0%;
+}
+
+#wagner-informacao > h1 {
+    font: normal 500 2em var(--SubTítulo);
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: white;
+}
+
+#wagner-informacao > h2 {
+    font: normal 500 3em var(--TituloPrincipal);
+    text-transform: uppercase;
+    color: white;
+}
+
+#wagner-informacao > hr {
+    position: absolute;
+    top: 35%;
+}
+
+#wagner-informacao > ul {
+    list-style-position: inside;
+    margin-top: 50px;
+}
+
+#wagner-informacao > ul > li {
+    font: normal 700 1em var(--TituloPrincipal);
+    line-height: 70px;
+}
+
+#wagner-informacao > ul > li {
+    color: #003884;
+}
+
+.wagner-icone {
+    color: white;
+}
+
+#perguntas-frequentes {
+    background-color: white;
+    margin-top: 150px;
+}
+
+#perguntas-frequentes > h1 {
+    background-color: #003884;
+    color: white;
+    text-align: center;
+    font: normal 500 2em var(--SubTítulo);
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#perguntas-frequentes > aside > ul {
+    list-style-position: inside;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.pergunta {
+    font: normal 900 1em var(--TituloPrincipal);
+    list-style-type: none;
 }
