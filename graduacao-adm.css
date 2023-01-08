@@ -93,7 +93,7 @@ main {
     background-color: black;
     max-width: 1200px;
     min-width: 250px;
-    height: 5000px;
+    height: 10000px;
     margin: auto;
 }
 
@@ -659,6 +659,7 @@ abbr {
 #perguntas-frequentes {
     background-color: white;
     margin-top: 150px;
+    padding-bottom: 50px;
 }
 
 #perguntas-frequentes > h1 {
@@ -679,6 +680,143 @@ abbr {
 }
 
 .pergunta {
-    font: normal 900 1em var(--TituloPrincipal);
+    font: normal 900 1.2em var(--SubTítulo);
     list-style-type: none;
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.resposta {
+    margin: 20px 0px 50px 0px;
+    font: normal 500 1em var(--TituloPrincipal);
+    text-indent: 20px;
+}
+
+.icone-azul {
+    color: #003884;
+}
+
+#resposta-bolsa {
+    margin: 20px 0px 50px 0px;
+    list-style-type: circle;
+}
+
+#resposta-bolsa li {
+    font: normal 500 .9em var(--TituloPrincipal);
+    margin: 10px;
+}
+
+#financiamentos-bolsas {
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 200px;
+    height: 450px;
+}
+
+#financiamentos-bolsas h1 {
+    font: normal 900 3em var(--SubTítulo);
+    color: white;
+    text-transform: uppercase;
+}
+
+#destaquefinancas {
+    color: #003884;
+}
+
+#limitador {
+    position: relative;
+    border: 1px solid white;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#financiamentos-bolsas > #limitador > div {
+    border: 1px solid white;
+    width: 260px;
+    height: 260px;
+    margin: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+#fiesfundo h1 {
+    position: absolute;
+    font: normal 500 2em var(--TituloPrincipal);
+    background-color: transparent;
+    width: 100%;
+    padding: 113px 0px;
+}
+
+#prounifundo h1 {
+    position: absolute;
+    font: normal 500 2em var(--TituloPrincipal);
+    background-color: red;
+    width: 100%;
+    padding: 113px 0px;
+}
+
+#empresasfundo h1 {
+    position: absolute;
+    font: normal 500 2em var(--TituloPrincipal);
+    background-color: red;
+    width: 100%;
+    padding: 95.5px 0px;
+}
+
+#estudosfundo h1 {
+    position: absolute;
+    font: normal 500 2em var(--TituloPrincipal);
+    background-color: red;
+    width: 100%;
+    padding: 95.5px 0px;
+}
+
+#fiesdescricao {
+    position: absolute;
+    background-color: transparent;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+#fiesdescricao p {
+    color: transparent;
+}
+
+#fiesdescricao a {
+    color: transparent;
+}
+
+#fiesdescricao h2 {
+    font: normal 500 3em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+#fiesdescricao p {
+    font: normal 500 1em var(--TituloPrincipal);
+    margin: 50px 0px;
+}
+
+#fiesdescricao a {
+    font: normal 300 1.3em var(--TituloPrincipal);
+    text-transform: uppercase;
+}
+
+#fiesfundo:hover > #fiesdescricao {
+    background-color: #003884;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#fiesfundo:hover > #fiesdescricao p {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#fiesfundo:hover > #fiesdescricao a {
+    color: white;
+    transition-duration: 0.2s;
 }
