@@ -710,7 +710,6 @@ abbr {
 
 #financiamentos-bolsas {
     text-align: center;
-    border: 1px solid white;
     margin-top: 200px;
     height: 450px;
 }
@@ -727,18 +726,20 @@ abbr {
 
 #limitador {
     position: relative;
-    border: 1px solid white;
     height: 300px;
     margin-top: 20px;
 }
 
 #financiamentos-bolsas > #limitador > div {
-    border: 1px solid white;
     width: 260px;
     height: 260px;
     margin: 15px;
     display: inline-block;
     position: relative;
+}
+
+#fiesfundo {
+    border: 1px solid white;
 }
 
 #fiesfundo h1 {
@@ -749,12 +750,22 @@ abbr {
     padding: 113px 0px;
 }
 
+#prounifundo {
+    border: 1px solid white;
+}
+
 #prounifundo h1 {
     position: absolute;
     font: normal 500 2em var(--TituloPrincipal);
-    background-color: red;
+    background-color: transparent;
+    color: transparent;
     width: 100%;
     padding: 113px 0px;
+    color: white;
+}
+
+#empresasfundo {
+    border: 1px solid white;
 }
 
 #empresasfundo h1 {
@@ -763,6 +774,10 @@ abbr {
     background-color: red;
     width: 100%;
     padding: 95.5px 0px;
+}
+
+#estudosfundo {
+    border: 1px solid white;
 }
 
 #estudosfundo h1 {
@@ -819,4 +834,229 @@ abbr {
 #fiesfundo:hover > #fiesdescricao a {
     color: white;
     transition-duration: 0.2s;
+}
+
+#prounifundo {
+    position: relative;
+}
+
+#prounidescricao {
+    position: absolute;
+    background-color: transparent;
+    height: 100%;
+}
+
+#prounidescricao > h2 {
+    position: absolute;
+    font: normal 500 3em var(--TituloPrincipal);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 31px;
+    top: 30px;
+    color: transparent;
+}
+
+#prounidescricao > p {
+    font: normal 300 1em var(--TituloPrincipal);
+    margin-top: 120px;
+    color: transparent;
+}
+
+#prounidescricao > a {
+    display: block;
+    color: transparent;
+    font: normal 500 1.3em var(--TituloPrincipal);
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+
+#prounifundo:hover h1 {
+    color: transparent;
+    transition-duration: 0.2s;
+}
+
+#prounifundo:hover > #prounidescricao {
+    background-color: #003884;
+    transition-duration: 0.2s;
+}
+
+#prounidescricao:hover > h2 {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#prounidescricao:hover p {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#prounidescricao:hover a {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#empresasfundo {
+    position: relative;
+}
+
+#empresasfundo h1 {
+    background-color: transparent;
+    color: white;
+}
+
+#empresasdescricao {
+    position: absolute;
+    background-color: transparent;
+    height: 100%;
+}
+
+#empresasdescricao h2 {
+    color: transparent;
+    font: normal 500 2em var(--TituloPrincipal);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#empresasdescricao p {
+    font: normal 500 1em var(--TituloPrincipal);
+    margin-top: 30px;
+    padding: 0px 15px;
+    color: transparent;
+}
+
+#empresasdescricao a {
+    display: block;
+    color: transparent;
+    margin-top: 45px;
+    text-transform: uppercase;
+    font: normal 500 1.3em var(--TituloPrincipal);
+}
+
+#empresasfundo:hover > h1 {
+    color: transparent;
+    transition-duration: 0.2s;
+}
+
+#empresasdescricao:hover {
+    background-color: #003884;
+    transition-duration: 0.2s;
+}
+
+#empresasdescricao:hover > h2 {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#empresasdescricao:hover > p {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#empresasdescricao:hover > a {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#estudosdescricao {
+    position: absolute;
+    height: 100%;
+}
+
+#estudosfundo > h1 {
+    color: white;
+    background-color: transparent;
+}
+
+#estudosdescricao > h2 {
+    color: transparent;
+    background-color: transparent;
+    margin-top: 15px;
+    font: normal 500 2.3em var(--TituloPrincipal);
+    text-transform: uppercase;
+}
+
+#estudosdescricao > p {
+    font: normal 500 1em var(--TituloPrincipal);
+    margin-top: 30px;
+    color: transparent;
+}
+
+#estudosdescricao > a {
+    display: block;
+    color: white;
+    font: normal 500 1.3em var(--TituloPrincipal);
+    margin-top: 45px;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+#estudosfundo:hover h1 {
+    color: transparent;
+    transition-duration: 0.2s;
+}
+
+#estudosdescricao:hover {
+    background-color: #003884;
+    transition-duration: 0.2s;
+}
+
+#estudosdescricao:hover h2 {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#estudosdescricao:hover p {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#estudosdescricao:hover a {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#mercado-trabalho {
+    position: relative;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 300px;
+    height: 800px;
+    width: 70vw;
+}
+
+#mercado-trabalho > h1 {
+    color: #003884;
+    font: normal 800 1.8em var(--TituloPrincipal);
+    text-transform: uppercase;
+}
+
+#mercado-trabalho > h2 {
+    color: white;
+    font: italic 500 1.4em var(--TituloPrincipal);
+    margin-top: 10px;
+}
+
+#mercado-trabalho hr {
+    position: absolute;
+    top: 120px;
+}
+
+#mercado-adm {
+    background-color: white;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 70vw;
+}
+
+#mercado-adm > p {
+    color: black;
+    padding: 30px 20px;
+    text-align: justify;
+    font: normal 300 1.1em var(--TituloPrincipal);
+}
+
+#mercado-adm > ol > li {
+    list-style-position: inside;
+    font: normal 300 1em var(--TituloPrincipal);
 }
